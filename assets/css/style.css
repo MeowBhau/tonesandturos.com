@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0; 
+}
+
+@media (max-width:740px) {
+    body{
+        background-image: url("../../assets/img/mobile_screen.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        
+    }
+}
+@media (min-width:741px) {
+    body{
+        background-image: url("../../assets/img/desktop_screen.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        
+
+    }
+}
